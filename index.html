@@ -15,20 +15,14 @@
       rel="stylesheet"
     />
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
-    <style type="text/tailwindcss">
-      @theme {
-        --color-clifford: #da373d;
-      }
-    </style>
-    <script type="module" crossorigin="" src="index.js"></script>
-    <link rel="stylesheet" crossorigin="" href="/index.css" />
+    <link rel="stylesheet" crossorigin="" href="index.css" />
   </head>
   <body>
     <div id="root">
       <section class="section md:flex md:gap-8">
         <div class="md:w-5/12">
           <img
-            src="assets/Santiago-Childrens-Center-logo.svg"
+            src="assets/icons/Santiago-Childrens-Center-logo.svg"
             alt="Santiago Childrens Center logo"
             class="logo pb-5"
           />
@@ -44,13 +38,15 @@
           >
             <a
               class="btn shape-S m-auto flex max-w-[240px] justify-center align-middle md:ml-0"
-              href="mailto:sarah.santiagochildenscenter@gmail.com"
+              href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#115;&#97;&#114;&#97;&#104;&#46;&#115;&#97;&#110;&#116;&#105;&#97;&#103;&#111;&#99;&#104;&#105;&#108;&#100;&#101;&#110;&#115;&#99;&#101;&#110;&#116;&#101;&#114;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;"
               target="_blank"
               ><div>EMAIL US</div></a
             >
             <div class="m-auto text-center md:ml-0 md:w-max md:text-left">
               <div class="font-bold text-forest">OR CALL</div>
-              <div class="text-3xl font-bold text-forest">714-478-0155</div>
+              <div class="text-3xl font-bold text-forest">
+                &#55;&#49;&#52;&#45;&#52;&#55;&#56;&#45;&#48;&#49;&#53;&#53;
+              </div>
             </div>
           </div>
           <a
@@ -58,42 +54,42 @@
             target="_blank"
             class="mx-auto flex max-w-[290px] justify-around pb-20 text-center md:ml-0 md:w-max md:pb-2 md:text-left"
             ><img
-              src="assets/5-stars.svg"
+              src="assets/icons/5-stars.svg"
               alt="5 stars"
               class="ml-auto w-full min-w-0 max-w-36 self-center" />
             <div class="self-center px-2 text-center">on</div>
             <img
-              src="assets/yelp.svg"
+              src="assets/icons/yelp.svg"
               alt="Yelp logo"
               class="mr-auto w-full min-w-0 max-w-28 self-center"
           /></a>
         </div>
-        <div class="md:w-7/12">
-          <div class="aFSlides shape-L mx-auto -mb-16 md:-mb-24">
-            <div class="">
+        <div class="addFuncSlides md:w-7/12">
+          <div class="slides shape-L mx-auto -mb-16 md:-mb-24">
+            <div class="slide current">
               <img
-                class="slide w-full"
+                class="w-full"
                 src="assets/photos/children_watching_turtle_ai2x.jpg"
                 alt="Cildren on our green campus, admiring a Tortoise."
               />
             </div>
-            <div class="">
+            <div class="slide">
               <img
-                class="slide w-full"
+                class="w-full"
                 src="assets/photos/children_watching_terrarium_ai2x.jpg"
                 alt="Cildren on our green campus, admiring a Tortoise."
               />
             </div>
-            <div class="">
+            <div class="slide">
               <img
-                class="slide w-full"
+                class="w-full"
                 src="assets/photos/children_looking_at_horse.webp"
                 alt="Cildren on our green campus, admiring a Tortoise."
               />
             </div>
-            <div class="current">
+            <div class="slide">
               <img
-                class="slide w-full"
+                class="w-full"
                 src="assets/photos/girl_n_horse_looking_at_each_other.jpg"
                 alt="Cildren on our green campus, admiring a Tortoise."
               />
@@ -208,7 +204,7 @@
               </div>
               <div class="text-bold text-aqua">
                 Jeri D.<br /><img
-                  src="assets/5-stars.svg"
+                  src="assets/icons/5-stars.svg"
                   alt="5 stars"
                   class="mr-auto w-24"
                 />
@@ -229,7 +225,7 @@
               </div>
               <div class="text-bold text-aqua">
                 Givanna N.<br /><img
-                  src="assets/5-stars.svg"
+                  src="assets/icons/5-stars.svg"
                   alt="5 stars"
                   class="mr-auto w-24"
                 />
@@ -251,7 +247,7 @@
               </div>
               <div class="text-bold text-aqua">
                 Courtney T.<br /><img
-                  src="assets/5-stars.svg"
+                  src="assets/icons/5-stars.svg"
                   alt="5 stars"
                   class="mr-auto w-24"
                 />
@@ -265,7 +261,7 @@
             href="https://www.yelp.com/biz/santiago-childrens-center-orange"
             target="_blank"
             class="mr-auto block w-28 self-center"
-            ><img src="assets/yelp.svg" alt="Yelp logo"
+            ><img src="assets/icons/yelp.svg" alt="Yelp logo"
           /></a>
         </div>
       </section>
@@ -297,7 +293,10 @@
             lot.
           </p>
           <p>Address: 20362 S. Randall St., Orange, CA 92869</p>
-          <p>Contact: Sarah Holtz, "714-478-0155"</p>
+          <p>
+            Contact: Sarah Holtz,
+            "&#55;&#49;&#52;&#45;&#52;&#55;&#56;&#45;&#48;&#49;&#53;&#53;"
+          </p>
         </details>
         <details>
           <summary>How long have you been in business?</summary>
@@ -362,21 +361,21 @@
           </div>
         </div>
         <div class="-mb-16 mr-auto mt-12 basis-[400px] md:-mb-24">
-          <div class="shape-L">
-            <div class="aFSlides undefined">
-              <div class="current">
+          <div class="addFuncSlides shape-L">
+            <div class="slides undefined">
+              <div class="slide current">
                 <img
                   src="assets/photos/children_grooming_horse.webp"
                   alt="Children grooming horse"
                 />
               </div>
-              <div class="">
+              <div class="slide">
                 <img
                   src="assets/photos/children_playing_on_playground.webp"
                   alt="Children playing on playground"
                 />
               </div>
-              <div class="">
+              <div class="slide">
                 <img
                   src="assets/photos/children_n_teacher.webp"
                   alt="Children and teacher"
@@ -390,13 +389,15 @@
         <div class="stacker gap-8 py-8 text-center md:gap-12 lg:py-12">
           <a
             class="btn shape-S m-auto flex max-w-[320px] justify-center align-middle md:mr-0"
-            href="mailto:sarah.santiagochildenscenter@gmail.com"
+            href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#115;&#97;&#114;&#97;&#104;&#46;&#115;&#97;&#110;&#116;&#105;&#97;&#103;&#111;&#99;&#104;&#105;&#108;&#100;&#101;&#110;&#115;&#99;&#101;&#110;&#116;&#101;&#114;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;"
             target="_blank"
             ><div>EMAIL US</div></a
           >
           <div class="m-auto text-center md:ml-0 md:w-max md:text-left">
             <div class="font-bold text-forest">OR CALL</div>
-            <div class="text-3xl font-bold text-forest">714-478-0155</div>
+            <div class="text-3xl font-bold text-forest">
+              &#55;&#49;&#52;&#45;&#52;&#55;&#56;&#45;&#48;&#49;&#53;&#53;
+            </div>
           </div>
         </div>
       </section>
@@ -406,13 +407,6 @@
         <p>Website by <a href="https://joerhoney.com">joerhoney.com</a></p>
       </footer>
     </div>
-
-    <div
-      class="calendly-frame-tag"
-      manager_id="529f3cf8-144d-4f02-9677-fa002d5d8cbf"
-      id="529f3cf8-144d-4f02-9677-fa002d5d8cbf"
-      style="height: 0px; width: 0px; visibility: hidden"
-    ></div>
-    <div class="calendly-lifecycle-optibutton_singleton"></div>
+    <script src="index.js"></script>
   </body>
 </html>

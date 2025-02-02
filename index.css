@@ -996,11 +996,11 @@ video {
   }
 }
 
-.aFSlides {
+.addFuncSlides .slides {
   position: relative;
 }
 
-.aFSlides > * {
+.addFuncSlides .slides > * {
   position: absolute;
   top: 0;
   right: 0;
@@ -1010,7 +1010,7 @@ video {
   transition: opacity 3s ease 3s;
 }
 
-.aFSlides > .current {
+.addFuncSlides .slides > .current {
   position: relative;
   display: block;
   opacity: 1;
